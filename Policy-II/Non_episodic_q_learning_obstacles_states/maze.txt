@@ -1,0 +1,19 @@
+maze = [2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+        1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0;
+        1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+        1 0 1 0 0 0 0 1 0 1 0 0 0 0 1 1;
+        1 0 1 0 0 0 0 1 0 1 0 0 0 0 0 1;
+        1 1 1 0 0 0 0 1 0 1 0 1 1 0 0 1;
+        1 0 1 1 1 1 1 1 0 1 0 1 1 0 0 1;
+        1 0 0 0 0 0 0 1 0 1 0 0 1 0 0 1;
+        1 1 1 1 1 1 1 1 0 1 1 1 1 0 0 3;
+        1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+
+could solve by q learining by making position of obstacles 
+as state but running time is very random.
+
+
+if state is terminal ===reward 10
+if non terminal = -1
+
+change this give rewards according to the paper, if trying to ramm in wall then negative reward
