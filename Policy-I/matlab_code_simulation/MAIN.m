@@ -49,7 +49,7 @@ s_index=state_index(start_state,type);
 
 %% Exploration
 
-Nepisodes=1; %number of episodes
+Nepisodes=4; %number of episodes
 
 a=[1 2 3];    %set of actions
 Nactions = length(a);
